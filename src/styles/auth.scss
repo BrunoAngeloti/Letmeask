@@ -1,0 +1,125 @@
+#page-auth{
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+
+    aside {
+        flex: 5;
+        background-color: #835afd;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 120px 80px;
+
+        > img {
+            max-width: 280px;
+        }
+
+        strong {
+            font: 700 2rem 'Poppins', sans-serif;
+            line-height: 34px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        p {
+            font-size: 1.0rem;
+            line-height: 18px;
+            margin-top: 16px;
+            color: #f8f8f8;
+            width: 90%;
+        }
+    }
+
+    main {
+        flex: 8;
+        display: flex;
+        padding: 0 32px;
+        align-items: center;
+        justify-content: center;
+        
+
+        div{
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            max-width: 320px;
+
+            >img {
+                align-self: center;
+                max-width: 120px;
+            }
+        }
+
+        
+
+        input {
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #A8A8B3;
+            padding: 0 16px;
+           
+        }
+        button, input {
+            width: 100%;
+        }   
+   
+    }
+
+    .create-room {
+        background:#EA4335;
+        margin-top: 40px;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        
+        height: 50px;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        transition: filter 0.2s;
+
+        img {    
+            margin-right: 8px;  
+        }
+
+        &:hover {
+            filter: brightness(0.9);
+        }
+    }
+
+    .separator {
+        font-size: 14px;
+        color: #a8a8b3;
+
+        margin: 32px 0;
+        display: flex;
+        align-items: center;
+
+        &::before{
+            content: "";
+            flex: 5;
+            height: 1px;
+            background: #a8a8b3;
+            margin-right: 16px;
+        }
+
+        &::after{
+            content: "";
+            flex: 5;
+            height: 1px;
+            background: #a8a8b3;
+            margin-left: 16px;
+        }
+    }
+
+}
