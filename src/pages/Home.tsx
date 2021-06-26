@@ -52,7 +52,7 @@ export function Home(){
             <aside>
                 <img src={illustration} alt="imagem de ilustração" />
                 <strong>Toda pergunta tem uma resposta. Bruno Angeloti Pires</strong>
-                <p>Aprenda e compartilhe conhecimento com outras pessoas</p>
+                <p>Aprenda e compartilhe conhecimento com outras pessoas. O CARAI</p>
             </aside>
             <main>
                 <div>
