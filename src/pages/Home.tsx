@@ -51,7 +51,7 @@ export function Home(){
         <div id="page-auth">
             <aside>
                 <img src={illustration} alt="imagem de ilustração" />
-                <strong>Toda pergunta tem uma resposta.</strong>
+                <strong>Toda pergunta tem uma resposta. Bruno Angeloti Pires</strong>
                 <p>Aprenda e compartilhe conhecimento com outras pessoas</p>
             </aside>
             <main>
